@@ -6,3 +6,28 @@ body {
   max-width: 350px;
   padding: 1rem;
 }
+
+.switch {
+  border:solid 0.5px rgba(255, 255, 255, 0.383);
+  width: 90px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 10px;
+
+  border-radius: 20px;
+  background-color: rgba(43, 48, 53, 0.097);
+  position: relative;
+}
+
+.switch img{
+  position: absolute;
+  background-color: rgb(255, 0, 0);
+  border-radius: 100%;
+  padding: 5px;
+  width: 40px;
+  color: rgb(255, 255, 255);
+
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
