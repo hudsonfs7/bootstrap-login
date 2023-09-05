@@ -8,20 +8,20 @@ body {
 }
 
 .switch {
-  border:solid 0.5px rgba(255, 255, 255, 0.383);
+  border:solid 0.5px rgb(11, 94, 215);
   width: 90px;
   height: 30px;
   margin: 0 auto;
   margin-top: 10px;
 
   border-radius: 20px;
-  background-color: rgba(43, 48, 53, 0.097);
+  background-color: rgba(62, 155, 247, 0.097);
   position: relative;
 }
 
-.switch img{
+.dark .switch img{
   position: absolute;
-  background-color: rgba(209, 208, 208, 0.938);
+  background-color: rgba(62, 155, 247, 0.938);
   border-radius: 100%;
   padding: 5px;
   width: 40px;
@@ -32,9 +32,9 @@ body {
   cursor: pointer;
 }
 
-.dark-light .switch img {
+.light .switch img {
   position: absolute;
-  background-color: rgba(209, 208, 208, 0.938);
+  background-color: rgba(62, 155, 247, 0.938);
   border-radius: 100%;
   padding: 5px;
   width: 40px;
@@ -45,3 +45,4 @@ body {
 
   cursor: pointer;
 }
+
