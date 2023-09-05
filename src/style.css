@@ -28,9 +28,11 @@ body {
 
   top: 50%;
   transform: translateY(-50%);
+
+  cursor: pointer;
 }
 
-.switch img.on {
+.dark-light .switch img {
   position: absolute;
   background-color: rgba(209, 208, 208, 0.938);
   border-radius: 100%;
@@ -40,4 +42,6 @@ body {
   top: 50%;
   right: -1px;
   transform: translateY(-50%);
+
+  cursor: pointer;
 }

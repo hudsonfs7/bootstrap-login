@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +9,7 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
-    <link href="./style.css" rel="stylesheet" />
+    <link href="./src/style.css" rel="stylesheet" />
     <title>Login</title>
   </head>
   <body
@@ -54,10 +54,11 @@
           >
         </div>
         <button class="btn btn-primary w-100 py-2">Sign in</button>
-        <div class="switch">
-          <img class="on" src="./assets/moon.svg" />
+        <div onclick="togleMode()" class="switch">
+          <img src="./assets/moon.svg" />
         </div>
       </form>
     </main>
+    <script src="./src/script.js"></script>
   </body>
 </html>
